@@ -1,5 +1,5 @@
 # MFE-GaussF
-GaussF Transcript Quantification Pipeline
+MFE-GaussF Transcript Quantification Pipeline
 
 ## Overview:
 
@@ -259,7 +259,7 @@ python merge_normalize_isoform_count_v1.py --directory <input_directory as the o
 ```
 Command-Line Arguments
 --directory: The directory containing the *_kmers.csv and corresponding *_kmer_counts.csv files (required). This directory is same as the output directory from the last script (kmer_counting_loop.py).
---output_directory: The directory where the merged and normalized CSV files will be saved (required). The output directory should be to a new directory for further GaussF workflow.
+--output_directory: The directory where the merged and normalized CSV files will be saved (required). The output directory should be to a new directory for further MFE-GaussF workflow.
 --fastq: The path to the gzipped FASTQ file for which k-mer counts were computed (required).
 --read_length: The length of the reads in the FASTQ sequences, necessary for normalization (default is 150).
 --k: The length of the k-mers used during the counting process (default is 50).
